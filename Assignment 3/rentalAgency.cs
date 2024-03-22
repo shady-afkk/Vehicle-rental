@@ -3,7 +3,7 @@ using System;
 
 public class RentalAgency
 {
-    public Vehicle[] Fleet { get; set; }
+    public Vehicle[] Fleet { get; set; }   //Fleet was added 
     public double TotalRevenue { get; private set; }
 
     public RentalAgency(int fleetSize)
