@@ -13,7 +13,8 @@ public class Vehicle
         Model = model;
         Manufacturer = manufacturer;
         Year = year;
-        RentalPrice = rentalPrice;
+        RentalPrice = rentalPrice;                 // rental price is the price for the vehicle
+        
     }
 
     public virtual void DisplayDetails()
