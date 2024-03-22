@@ -18,7 +18,7 @@ class Program
         Console.WriteLine("Details of Vehicles in Fleet:");
         foreach (var vehicle in agency.Fleet)
         {
-            if (vehicle != null)
+            if (vehicle != null)    //Null was added
             {
                 vehicle.DisplayDetails();
                 Console.WriteLine();
